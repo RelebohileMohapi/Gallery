@@ -1,0 +1,28 @@
+/* style.css */
+
+.thumbnail-grid {
+    -fx-background-color: "black";
+}
+
+.full-image {
+    -fx-effect: drop shadow(gaussian, rgba(0,0,0,0.5), 20, 0, 0, 0);
+    -fx-border-width: 2px;
+    -fx-border-color: #555;
+}
+
+.navigation-button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.navigation-button:hover {
+    -fx-background-color: "grey";
+    }
+
+.navigation-button:pressed {
+    -fx-background-color: #388e3c; /* Even Darker Green */
+}
